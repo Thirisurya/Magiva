@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+    <link rel="shortcut icon" href="https://media.licdn.com/dms/image/D560BAQGj6S28nZ9QFg/company-logo_200_200/0/1707558834189/magivatech_logo?e=2147483647&v=beta&t=4hb1D2BGdTJFk2fm84XPEYsBGmDcwed7eSNEpWXXji4">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+   <div class="main">
+         <header>
+             <img class="logo" src="https://media.licdn.com/dms/image/D560BAQGj6S28nZ9QFg/company-logo_200_200/0/1707558834189/magivatech_logo?e=2147483647&v=beta&t=4hb1D2BGdTJFk2fm84XPEYsBGmDcwed7eSNEpWXXji4" alt="logo">
+
+             <nav>
+                 <ul class="nav_links">
+                     <li><a href="mg.html">Home</a></li>
+                     <li>
+                         <a href="#">Products &#x25BE;</a>
+                         <ul class="dropdown">
+                             <li><a href="salematic.html">Salesmatic</a></li>
+                             <li><a href="Distomatic.html">Distomatic</a></li>
+                             <li><a href="Trackobox.html">Trackobox</a></li>
+                         </ul>
+                     </li>
+                     <li><a href="about.html">About Us</a></li>
+                 </ul>
+             </nav>
+             <a class="cta" href="contact2.html"><button>Contact Us</button></a>
+         </header>
+       <div class="contact3">
+             <div class="touch1">
+                 <h1>
+                     <span class="double_icon">
+                         <i class="fa-solid fa-fingerprint"></i>
+                     </span>
+                     <span>Contact Us</span>
+                 </h1>
+                 <h1>Get In Touch</h1>
+                 <div class="map" style="border-radius: 30px;">
+                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7823.734627230017!2d77.70369779150636!3d11.3444009053639!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525d9ce972322b%3A0x8b25d28e692cbcd5!2sMagiva%20Technologies%20Private%20Limited!5e0!3m2!1sen!2sin!4v1706880999222!5m2!1sen!2sin" height="300px"  width="50%" style="border:0;border-radius: 30px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                     <form action="" onsubmit="return validateForm()">
+                         <div class="mapp1">
+                             <div class="input_row">
+                                 <input class="space" type="text"  name="name" id="name" placeholder="Full Name" >
+                                 <span id="name-error" class="error-message"></span>
+                             </div>
+                             <div class="input_row">
+                                 <input class="space" type="email"  name="email" id="email"  placeholder="Email Address" >
+                                 <span id="email-error" class="error-message"></span>
+                             </div>
+                             <div class="input_row">
+                                 <input class="space" type="text"  name="phone" id="phone" maxlength="10" oninput="this.value = this.value.replace(/[^0-9]/g, '').replace(/(\..*)\./g, '$1');"  placeholder="Phone">
+                                 <span id="phone-error" class="error-message"></span>
+                             </div>
+                             <div class="input_row">
+                                 <textarea class="space1" name="message"  id="message" rows="3" cols="3" placeholder="Write your Message" ></textarea>
+                                 <span id="message-error" class="error-message"></span>
+                                 <input class="conbut" type="submit" value="Send" name="Submit" />
+                             </div>
+                         </div>
+                     </form>
+                 </div>
+             </div>
+     </div>
+   </div>
+<!------------------------------------------------------- Foot ----------------------------------------------->
+<div id="foot">
+    <div class="footer1">
+        <div>
+            <img src="magiva_light.svg"  width="200" height="70px" alt="image">
+        </div>
+        <div>
+            <a href="salematic.html"><h3>Salesmatic</h3></a>
+            <a href="Distomatic.html"><h3>Distomatic</h3></a>
+            <a href="Trackobox.html"><h3>Trackbox</h3></a>
+        </div>
+        <div>
+
+            <a href="about.html"><h3>About Us</h3></a>
+            <a href="contact2.html"><h3>Contact Us</h3></a>
+            <h3>Privacy Policy</h3>
+
+        </div>
+        <div class="footer_social">
+            <ul class="social_icon unordered_list_end" style=" justify-content: start; ">
+                <li><a href="https://www.facebook.com/magivatech" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="https://www.linkedin.com/company/magivatech/mycompany/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="https://www.youtube.com/@MagivaTechnologiesPrivateLimit" target="_blank"><i class="fab fa-youtube"></i></a></li>
+            </ul>
+        </div>
+
+    </div>
+    <hr>
+    <div class="copyright">
+                Copyright &copy; 2024 by <a target="_blank" href="#"><u>Magiva</u></a> All Rights Reserved.
+
+    </div>
+
+</div>
+<script src="contact2.js"></script>
+
+</body>
+</html>

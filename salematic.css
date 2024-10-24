@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+
+}
+body {
+
+    height: auto;
+
+}
+/*.main {
+    background-color: #593d7a;
+
+}*/
+
+li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+header {
+    position: relative;
+    width: 100%;
+    z-index: 100000;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 7%;
+    background-color: white;
+    border-radius: 50px;
+    margin: 15px;
+
+}
+nav{
+    background-color: white;
+    padding: 5px;
+}
+.logo {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    }
+.nav_links {
+    list-style: none;
+    background-color: white;
+    }
+.nav_links li {
+    display: inline-block;
+    padding: 0 20px;
+    background-color: white;
+
+    }
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+    color: black;
+    background-color: white;
+    }
+.nav_links li a:hover {
+    color: #593d7a;
+
+    }
+ul li ul.dropdown li {
+    display: block;
+    background: white;
+    margin: 3px 0;
+}
+ul li ul.dropdown {
+    width:150px;
+    height: 100px;
+    color: black;
+    background: white;
+    position: absolute;
+    z-index: 999;
+    display: none;
+    padding: 15px;
+
+}
+ul li:hover ul.dropdown{
+    display: block;
+}
+button {
+    padding: 9px 25px;
+    background-color:white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    }
+.cta{
+    border-radius: 50px;
+}
+button:hover {
+    color: #593d7a;
+    text-underline: none;
+    }
+
+/*------------------------------------------------------- End Header -------------------------------------------------------------*/
+.images{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.image1{
+    display: flex;
+    align-items: center;
+}
+p{
+    font-size: 17px;
+    color: #493d3d;
+    margin: 10px;
+    padding: 10px;
+}
+
+/*------------------------------------------------------------  att ----------------------------------------------------*/
+.about_list_boxed{
+    margin: 30px;
+    padding: 10px;
+}
+.list_item_icon {
+    color: black;
+    background-color: #f8b16f;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    border-radius: 50px;
+}
+.list_item_text{
+    color: #171111;
+    font-size: 15px;
+    padding: 10px;
+    margin: 10px;
+}
+.busimg{
+    width: 200px;
+    color: white;
+    background-color: #3636c3;
+    margin: 20px;
+    font-size: 20px;
+    border: none;
+}
+.busimg:hover{
+    color: #f8b16f;
+}
+
+
+/*.more{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 4px;
+}*/
+.about_list_boxed{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.more img{
+    top: -10px;
+    width: 500px;
+    height: 400px;
+}
+.saleh1 {
+    color: #171111;
+    font-size: 40px;
+    padding: 10px;
+    text-align: center;
+
+}
+.saleh1:hover{
+    color: #593d7a;
+}
+/*------------------------------------------------------------------------ Distomatic -----------------------------------------------------------*/
+.Distomatic{
+    height: 100%;
+    width: 100%;
+}
+.disto2{
+    margin-top:50px ;
+}
+.disto{
+    display: flex;
+    justify-content: space-evenly;
+}
+.disto img{
+    margin-top: -30px;
+}
+.dispag{
+    color: #2f2d2d;
+    font-size: 20px;
+    padding: 10px;
+}
+.disbut{
+    color: white;
+    background-color: #3636c3;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    height: 60px;
+    width: 200px;
+    border-radius: 25px;
+}
+.disbut:hover{
+    color: #f8b16f;
+
+}
+.disto2 h1{
+    font-size: 40px;
+    color: #171111;
+    font-weight: bold;
+}
+.disto2 h1:hover{
+    color: #593d7a;
+}
+.icon_list{
+    margin-top: 30px;
+
+}
+li{
+    color: white;
+}
+/*-------------------------------------------------------------------- Industries ------------------------------------------------------*/
+ .flex-container {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 280px;
+  height: 250px;
+  margin: 10px;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.div2{
+    flex-direction: column;
+    justify-content: space-between;
+}
+.image2{
+    align-items: center;
+}
+.flex-container > div:hover {
+    transform: scale(1.02);
+    outline: auto;
+    color: #77dbc8;
+}
+h4{
+    font-size: 20px;
+    font-weight: 300;
+    color: #321919;
+}
+h1{
+    padding: 25px;
+    font-size: 30px;
+}
+
+/*-------------------------------------- Touch -------------------------------------------------------*/
+#Touch{
+    width: 100%;
+    height: 100%;
+    background-color: #593d7a;
+}
+.touch2{
+    display: flex;
+    justify-content: space-between;
+}
+.touch1 h1{
+    color: white;
+    font-size: 25px;
+    padding: 30px;
+    margin: 30px;
+}
+.touch2 p{
+    color: white;
+    font-size: 40px;
+    font-weight: 400;
+    padding: 10px;
+    margin: 30px;
+}
+.fa-fingerprint{
+    color: #f8b16f;
+}
+.touch4{
+    color: black;
+    background-color: #f8b16f;
+    width: 225px;
+    height: 70px;
+    border: none;
+    border-radius: 25px;
+    font-size: 25px;
+    margin-top: -10px;
+    margin: 20px;
+}
+
+/*---------------------------------------------------------- Footer -----------------------------------------*/
+#foot{
+    background-color: #493d3d;
+}
+.footer1{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+.footer1 div h3{
+    color: white;
+}
+.unordered_list_end li{
+    color: #493d3d;
+
+}
+hr{
+    color: #f1d5d5;
+}
+.copyright{
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.fa-facebook-f,.fa-linkedin,.fa-youtube{
+    margin: 10px;
+
+}
